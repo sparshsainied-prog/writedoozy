@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nikki Perry and Kirsty Roby, Half of Hartwell Hotel</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="A homepage idea for Half of Hartwell Hotel by Nikki Perry and Kirsty Roby. Made by Sparsh Saini. Not their official site.">
+<meta property="og:title" content="Half of Hartwell Hotel, a homepage idea for Nikki Perry and Kirsty Roby">
+<meta property="og:description" content="A homepage idea made by Sparsh Saini for Nikki Perry and Kirsty Roby. Scroll and the other half of the hotel on the cover gets painted.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://sparshsainied-prog.github.io/writedoozy/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green:#93a06b;--green-deep:#7d8a58;--sky:#b9bab7;--cloud:#f1f1ee;--cream:#fbfaf5;--pink:#e9a7a4;--red:#d2232d;--orange:#e5681f;--ink:#2d2a24;--white:#fff;
+--disp:"Belleza","Gill Sans",system-ui,sans-serif;--body:"Quicksand","Avenir Next",system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--green);color:var(--ink);font-family:var(--body);font-weight:500;font-size:18px;line-height:1.5}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.strip{background:var(--ink);color:#f3f1ea;font-size:14px;line-height:1.35;text-align:center;padding:9px 16px}
+.hero{position:relative;height:340vh}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--green)}
+.rig{position:absolute;left:50%;bottom:0;width:800px;height:1200px;transform-origin:0 0;will-change:transform}
+.rig>*{position:absolute;max-width:none}
+.plate{left:0;top:0;width:800px;height:1200px;box-shadow:0 10px 36px rgba(45,42,36,.3)}
+.win{left:100px;top:690px;width:600px;height:370px;overflow:hidden;will-change:transform}
+.win img{position:absolute;left:-100px;top:-690px;width:800px;height:1200px;max-width:none;will-change:transform}
+.paws{left:224px;top:992px;width:272px;height:80px;opacity:0;will-change:transform,opacity}
+.copy{position:absolute;z-index:4;left:6vw;right:6vw;top:16px;pointer-events:none}
+.copy a{pointer-events:auto}
+.big{font-family:var(--disp);font-weight:400;font-size:clamp(28px,8vw,38px);line-height:1.05;margin:0 0 10px;color:var(--white);text-shadow:0 2px 0 rgba(45,42,36,.18);max-width:13em}
+.sub{margin:0 0 12px;font-size:16px;line-height:1.35;max-width:26em;color:var(--white)}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;font-family:var(--body);font-weight:700;font-size:17px;line-height:1;text-decoration:none;padding:14px 20px;min-height:46px;border:2px solid var(--white);border-radius:6px;background:var(--white);color:var(--ink)}
+.btn.alt{background:transparent;color:var(--white)}
+.btn:hover,.btn:focus-visible{background:var(--red);border-color:var(--red);color:var(--white)}
+a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.wrap{width:min(1040px,100% - 40px);margin:0 auto}
+h2{font-family:var(--disp);font-weight:400;font-size:clamp(42px,10vw,76px);line-height:.98;margin:0 0 .35em}
+.book{background:var(--cream);padding:70px 0 80px}
+.book .grid{display:grid;gap:34px}
+.book .cov{width:min(360px,100%);margin:0 auto}
+.book .cov img{width:100%;height:auto;box-shadow:0 14px 40px rgba(45,42,36,.28)}
+.book p{margin:0 0 1em;max-width:32em}
+.book .price{font-weight:700;margin:0 0 18px}
+.book .btn{border-color:var(--red);background:var(--red);color:var(--white)}
+.book .btn.alt{background:transparent;color:var(--red)}
+.book .btn:hover,.book .btn:focus-visible{background:var(--ink);border-color:var(--ink);color:var(--white)}
+.shelf{background:var(--cream);padding:0 0 84px}
+.shelf h3{font-family:var(--disp);font-weight:400;font-size:clamp(28px,6vw,40px);margin:0 0 .6em}
+.shelf ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.shelf li{margin:0}
+.shelf a{display:block;text-decoration:none}
+.shelf img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:4px}
+.shelf span{display:block;font-size:14px;line-height:1.3;margin-top:6px;font-weight:700}
+.shelf .note{max-width:34em;margin:22px 0 0}
+.next{background:var(--sky);padding:0 0 80px;color:var(--ink)}
+.next .cloudtop{display:block;width:100%;height:auto}
+.next h2{margin-top:-10px}
+.next p{max-width:32em;margin:0 0 1em}
+.next .events{list-style:none;margin:28px 0 0;padding:0;max-width:34em;border-top:2px solid rgba(45,42,36,.25)}
+.next .events li{padding:12px 0;border-bottom:2px solid rgba(45,42,36,.25);display:flex;gap:16px;justify-content:space-between;flex-wrap:wrap}
+.next .events b{font-weight:700}
+.about{background:var(--green);padding:74px 0 88px;color:var(--white)}
+.about .grid{display:grid;gap:26px}
+.about p{margin:0 0 1em;max-width:30em}
+.about blockquote{margin:0 0 1em;font-family:var(--disp);font-size:clamp(24px,5.4vw,34px);line-height:1.2;max-width:20em}
+.about .links a{font-weight:700}
+.about .small{font-size:16px}
+footer{background:var(--ink);color:#e9e6dd;padding:26px 0 40px;font-size:15px;text-align:center}
+footer p{margin:0 auto;max-width:36em;padding:0 20px}
+@media(min-width:900px){
+ .copy{left:6vw;right:auto;top:50%;transform:translateY(-50%);width:min(36vw,520px)}
+ .big{font-size:clamp(44px,4.2vw,66px)}
+ .sub{font-size:20px}
+ .btn{font-size:19px;padding:16px 26px}
+ .book .grid{grid-template-columns:360px 1fr;gap:80px;align-items:center}
+ .shelf ul{grid-template-columns:repeat(6,1fr)}
+ .about .grid{grid-template-columns:1fr 1.1fr;gap:80px}
+}
+@media(prefers-reduced-motion:reduce){.rig,.win,.win img,.paws{will-change:auto}}
+</style>
+</head>
+<body>
+<p class="strip">A homepage idea made by Sparsh Saini for Nikki Perry and Kirsty Roby. Not their official site.</p>
+
+<section class="hero" id="top" aria-label="Half of Hartwell Hotel">
+ <div class="stage">
+  <div class="rig" id="rig">
+   <img class="plate" src="img/before.jpg" width="800" height="1200" alt="The cover of Half of Hartwell Hotel by Nikki Perry and Kirsty Roby: a two storey wooden hotel on green hills under a grey cloudy sky, a kea perched on the title, a grey cat with painted paws, a tipped over tin of orange paint and a ladder leaning on the right side.">
+   <div class="win" id="win"><img src="img/cover.jpg" width="800" height="1200" alt="" id="winimg"></div>
+   <img class="paws" id="paws" src="img/paws.png" width="272" height="80" alt="">
+  </div>
+  <div class="copy" id="copy">
+   <h1 class="sr">Nikki Perry and Kirsty Roby</h1>
+   <p class="big">So what if Ambrose is hot and brooding and just her type. She halfway hates him.</p>
+   <p class="sub">Half of Hartwell Hotel, the new rom-com from Nikki Perry and Kirsty Roby. Set on New Zealand's smallest, most remote island, in the middle of winter.</p>
+   <p class="btns"><a class="btn" href="https://www.nikkiperryandkirstyroby.com/product-page/half-of-hartwell-hotel">Paperback, $25</a><a class="btn alt" href="#books">All the books</a></p>
+  </div>
+ </div>
+</section>
+
+<section class="book" id="books">
+ <div class="wrap">
+  <div class="grid">
+   <div class="cov"><img src="img/cover.jpg" width="800" height="1200" alt="Half of Hartwell Hotel cover"></div>
+   <div>
+    <h2>Half of Hartwell Hotel</h2>
+    <p>When Olivia Peterson randomly inherits half a hotel, she jumps at the chance to escape her complicated life back on the mainland. She is, after all, the most hated woman in the country at present, and there's every chance the press will leave her alone when she's on New Zealand's smallest, most remote island, in the middle of winter.</p>
+    <p>The only catch? The other half of the hotel is owned by Ambrose, a cranky, uptight school teacher, and she hasn't made the best first impression. All Liv needs to do is lay low and help fix up the property to sell. Then her life can get back to normal.</p>
+    <p class="price">Paperback $25, e-book $4.99, from their own shop.</p>
+    <p class="btns"><a class="btn" href="https://www.nikkiperryandkirstyroby.com/product-page/half-of-hartwell-hotel">Buy the paperback</a><a class="btn alt" href="https://www.nikkiperryandkirstyroby.com/">The e-book</a></p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="shelf" aria-label="The other rom-coms">
+ <div class="wrap">
+  <h3>Six more, all $25 in paperback</h3>
+  <ul>
+   <li><a href="https://www.nikkiperryandkirstyroby.com/"><img src="img/harry.jpg" width="420" height="420" alt="How to Marry Harry"><span>How to Marry Harry</span></a></li>
+   <li><a href="https://www.nikkiperryandkirstyroby.com/"><img src="img/wife.jpg" width="420" height="420" alt="The Missing Wife Life"><span>The Missing Wife Life</span></a></li>
+   <li><a href="https://www.nikkiperryandkirstyroby.com/"><img src="img/bacon.jpg" width="420" height="420" alt="Bringing Home Mr Bacon"><span>Bringing Home Mr Bacon</span></a></li>
+   <li><a href="https://www.nikkiperryandkirstyroby.com/"><img src="img/pinot.jpg" width="420" height="420" alt="Pinot and Puha"><span>Pinot and Puha</span></a></li>
+   <li><a href="https://www.nikkiperryandkirstyroby.com/"><img src="img/buckley.jpg" width="420" height="420" alt="Given a Buckley's Chance"><span>Given a Buckley's Chance</span></a></li>
+   <li><a href="https://www.nikkiperryandkirstyroby.com/"><img src="img/mary.jpg" width="240" height="240" alt="Mary and Bright"><span>Mary and Bright</span></a></li>
+  </ul>
+  <p class="note">And three for the kids: Ooey Gooey Louis, Nudie Rudie Boodie and Magic Jack.</p>
+ </div>
+</section>
+
+<section class="next" aria-label="What is next">
+ <img class="cloudtop" src="img/sky.jpg" width="800" height="314" alt="">
+ <div class="wrap">
+  <h2>Next, a book inspired by Somerset, canal boats and English bookstores</h2>
+  <p>That is all they have said so far. Until then, the sisters take the books to the readers. This year that meant three trips across the ditch and home again.</p>
+  <ul class="events">
+   <li><b>Book Boyfriend, Newcastle</b><span>13 June 2026</span></li>
+   <li><b>Love on the Beach, Gold Coast</b><span>1 August 2026</span></li>
+   <li><b>Indie Writers Festival, Te Manawa, Auckland</b><span>29 August 2026</span></li>
+  </ul>
+ </div>
+</section>
+
+<section class="about" id="about">
+ <div class="wrap">
+  <div class="grid">
+   <div>
+    <h2>Two sisters, one pen</h2>
+    <blockquote>"Sisters approaching middle age gracelessly, we are best friends, avid readers, writers and cocktail enthusiasts."</blockquote>
+   </div>
+   <div>
+    <p>Kirsty lives in Auckland with her husband, three children and a menagerie of animals. Nikki has three adult children and divides her time between Tauranga and Wellington. Together they write light, humorous stories, the kind that get read in one sitting.</p>
+    <p>Their life goal is to be invited to a dinner party hosted by Harry Styles.</p>
+    <p class="links"><a href="https://www.instagram.com/write_doozy/">Instagram, @write_doozy</a><br><a href="https://www.nikkiperryandkirstyroby.com/">nikkiperryandkirstyroby.com</a></p>
+    <p class="small">Every line on this page is from their own site.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<footer><p>A mockup made by Sparsh Saini for Nikki Perry and Kirsty Roby. Not affiliated, not live.</p></footer>
+
+<script>
+(function(){
+ var hero=document.querySelector('.hero'),rig=document.getElementById('rig'),win=document.getElementById('win'),wimg=document.getElementById('winimg'),paws=document.getElementById('paws'),copy=document.getElementById('copy');
+ var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+ var S=1,X=0,Y=0,desk=false,end=1,ticking=false;
+ function ease(t){return t<0?0:t>1?1:t*t*(3-2*t)}
+ function layout(){
+  var vw=innerWidth,vh=innerHeight; desk=vw>=900;
+  if(desk){S=Math.min((vh-40)/1200,(vw*0.42)/800);X=vw*0.72-400*S;Y=vh-1200*S-20;}
+  else{S=Math.min(vw/800,(vh-230)/1200);X=vw/2-400*S;Y=vh-1200*S;}
+  rig.style.transformOrigin='0 0';
+  end=hero.offsetHeight-vh; draw(reduce?1:prog());
+ }
+ function prog(){var y=-hero.getBoundingClientRect().top;return y<=0?0:y>=end?1:y/end}
+ function draw(p){
+  var z=1+0.7*(1-ease(p/0.32));           /* starts deep on the hotel, pulls back */
+  var sc=S*z;
+  /* keep the hotel centre (400,860) fixed where it lands at the end */
+  var cx=X+400*S,cy=Y+860*S;
+  rig.style.transform='translate3d('+(cx-400*sc)+'px,'+(cy-860*sc)+'px,0) scale('+sc+')';
+  rig.style.left='0';rig.style.bottom='auto';rig.style.top='0';
+  var w=ease((p-0.28)/0.42);               /* the painter's sweep, left to right */
+  var dx=-600*(1-w);
+  win.style.transform='translate3d('+dx+'px,0,0)';
+  wimg.style.transform='translate3d('+(-dx)+'px,0,0)';
+  var q=ease((p-0.68)/0.17);
+  paws.style.opacity=q; paws.style.transform='translate3d('+(-30*(1-q))+'px,0,0)';
+  var c=ease((p-0.72)/0.2);
+  copy.style.opacity=c; copy.style.transform=(desk?'translateY(-50%) ':'')+'translate3d(0,'+(16*(1-c))+'px,0)';
+ }
+ function onscroll(){if(ticking||reduce)return;ticking=true;requestAnimationFrame(function(){draw(prog());ticking=false})}
+ addEventListener('scroll',onscroll,{passive:true});addEventListener('resize',layout);layout();
+})();
+</script>
+</body>
+</html>
